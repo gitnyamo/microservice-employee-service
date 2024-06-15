@@ -8,7 +8,9 @@ public class EmployeeController {
 
     @GetMapping("/employees")
     public String getEmployee(){
-        return "Name: Kisha Baraka, email: kishab@gmail.com";
+        String address = null;
+        //return address data along with the employee data
+        return "Name: Kisha Baraka, email: kishab@gmail.com" + address;
     }
 
 }
