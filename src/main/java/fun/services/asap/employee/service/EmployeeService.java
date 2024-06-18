@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class EmployeeService {
 
     @Autowired
-    private EmployeeRepository employeeRepository;
+    private EmployeeRepository employeeRepository;//note that without creating the bean the app will fail because bean will not be automatically created since it is not with spring...
 
     @Autowired
     private ModelMapper modelMapper;

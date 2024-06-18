@@ -1,6 +1,8 @@
-# Example Flow
+# My Project Documentation
 
-1. A client makes a GET request to http://localhost:8080/employees.
+## Example Flow
+
+1. A client makes a GET request to http://localhost:8081/employees.
 2. The getEmployee() method is invoked.
 3. Inside this method, a GET request is made to http://localhost:8080/address to fetch an address.
 4. The address is obtained and stored in the address variable.
@@ -15,3 +17,12 @@ http://localhost:8080/address: This endpoint is another(address)REST endpoint av
 - Because RestTemplate is being deprecated, it might be removed in spring soon
 - Going forward, we will need to use Feign Client, WebClient as a replacement of Rest Template.
 - RestTemplate blocks threads...
+
+ 
+# Here is/are a screenshot(s) from Postman
+
+# My Project Documentation
+
+Here is a screenshot from Postman:
+
+![Postman Screenshot](postman_getmappingscreenshotbyidexample.png)
