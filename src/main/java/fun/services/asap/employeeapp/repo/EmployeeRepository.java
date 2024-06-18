@@ -1,6 +1,6 @@
-package fun.services.asap.employee.repo;
+package fun.services.asap.employeeapp.repo;
 
-import fun.services.asap.employee.entity.Employee;
+import fun.services.asap.employeeapp.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

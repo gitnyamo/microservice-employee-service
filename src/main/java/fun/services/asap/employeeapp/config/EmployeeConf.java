@@ -1,4 +1,4 @@
-package fun.services.asap.employee.config;
+package fun.services.asap.employeeapp.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

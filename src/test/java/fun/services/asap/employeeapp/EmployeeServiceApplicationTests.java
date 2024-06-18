@@ -1,4 +1,4 @@
-package fun.services.asap.employee;
+package fun.services.asap.employeeapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

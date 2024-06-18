@@ -1,4 +1,4 @@
-package fun.services.asap.employee.entity;
+package fun.services.asap.employeeapp.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
