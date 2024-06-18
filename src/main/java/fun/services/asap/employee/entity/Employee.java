@@ -24,7 +24,6 @@ public class Employee {
    @Column(name="emp_gender")
    private String gender;
 
-
    public int getId() {
       return id;
    }
