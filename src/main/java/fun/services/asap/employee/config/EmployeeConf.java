@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
-@Configuration
+@Configuration// makes dispatcher servelet to create the Beans whenever called for use.
 public class EmployeeConf {
 
     @Bean
@@ -14,7 +14,7 @@ public class EmployeeConf {
     }
 
     @Bean
-    public ModelMapper modelMapper(){
+    public ModelMapper modelMapper(){// model mapper bean is a third part api and not created by spring so no spring model mapper bean injection.
         return new ModelMapper();// created to be used for modelMapping instead of the setters of field.
     }
 }
