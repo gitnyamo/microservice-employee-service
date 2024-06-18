@@ -1,4 +1,4 @@
-package fun.services.asap.employeeapp.response;
+package fun.services.asap.employeeserviceapp.response;
 
 public class EmployeeResponse {
 

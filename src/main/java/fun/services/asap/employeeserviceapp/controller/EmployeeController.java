@@ -1,7 +1,7 @@
-package fun.services.asap.employeeapp.controller;
+package fun.services.asap.employeeserviceapp.controller;
 
-import fun.services.asap.employeeapp.response.EmployeeResponse;
-import fun.services.asap.employeeapp.service.EmployeeService;
+import fun.services.asap.employeeserviceapp.response.EmployeeResponse;
+import fun.services.asap.employeeserviceapp.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

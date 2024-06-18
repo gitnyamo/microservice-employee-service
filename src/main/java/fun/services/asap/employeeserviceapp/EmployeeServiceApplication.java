@@ -1,4 +1,4 @@
-package fun.services.asap.employeeapp;
+package fun.services.asap.employeeserviceapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

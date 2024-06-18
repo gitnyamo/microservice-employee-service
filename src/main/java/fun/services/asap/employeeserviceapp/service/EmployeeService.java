@@ -1,8 +1,8 @@
-package fun.services.asap.employeeapp.service;
+package fun.services.asap.employeeserviceapp.service;
 
-import fun.services.asap.employeeapp.entity.Employee;
-import fun.services.asap.employeeapp.repo.EmployeeRepository;
-import fun.services.asap.employeeapp.response.EmployeeResponse;
+import fun.services.asap.employeeserviceapp.entity.Employee;
+import fun.services.asap.employeeserviceapp.repo.EmployeeRepository;
+import fun.services.asap.employeeserviceapp.response.EmployeeResponse;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

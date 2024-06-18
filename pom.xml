@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>fun.services.asap</groupId>
-    <artifactId>employee-service</artifactId>
+    <artifactId>employee-service-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>employee-service</name>
-    <description>employee-service</description>
+    <description>employee-service-application</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -52,7 +52,6 @@
             <scope>annotationProcessor</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
-<!--        note that we have to get the modelMapper dependency from maven and add it into the pom dependencies before we start using it since it is not automatically injected by spring-->
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
