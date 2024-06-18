@@ -25,4 +25,4 @@ http://localhost:8080/address: This endpoint is another(address)REST endpoint av
 
 Here is a screenshot from Postman:
 
-![Postman Screenshot](https://github.com/gitnyamo/microservice-employee-service/blob/develop_microservice/images/postman_getmappingscreenshotbyidexample.png)
+
