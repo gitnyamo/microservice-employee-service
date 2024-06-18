@@ -12,8 +12,9 @@ public class EmployeeService {
     @Autowired
     private EmployeeRepository employeeRepository;
 
-    public EmployeeResponse getEmployeeById(int id){
+        public EmployeeResponse getEmployeeById(int id){
         Employee employee = employeeRepository.findById(id).get();
+        // note that inside here i am doing conversion manually using setters. However, when you have so many fields it can be so hard to do that to resolve this, I will be using ModelMapper moving forward for this app...
         EmployeeResponse employeeResponse = new EmployeeResponse();
         employeeResponse.setId(employee.getId());
         employeeResponse.setFirstName(employee.getLastName());
