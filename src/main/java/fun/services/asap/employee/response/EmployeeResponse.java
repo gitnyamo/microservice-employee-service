@@ -1,9 +1,7 @@
 package fun.services.asap.employee.response;
 
-//Note: make sure you remove all the column or any database mapping from the variables of this response class. Mapping should strictly stay within the entity class and not the response for security.
 public class EmployeeResponse {
 
-    //use the EmployeeResponse object for return in the EmployeeController instead of return your Employee object directly to the controller... again it is for security reasons.... bare minimum...
     private int id;
     private String firstName;
     private String lastName;
