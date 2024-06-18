@@ -20,7 +20,8 @@ http://localhost:8080/address: This endpoint is another(address)REST endpoint av
 
  
 # Postman Testing Screenshots Example(s)
-## Here is/are a screenshot(s) from Postman
+## Here is/are a screenshot(s) from Postman...
+<span style="color:blue"> Note</span>: for screenshots snagit tool will do a better job if you have it.. use both with the snipping tool....
 
 ![alt text](https://github.com/gitnyamo/microservice-employee-service/blob/develop_microservice/images/employeebyidpostman.png?raw=true)
 
