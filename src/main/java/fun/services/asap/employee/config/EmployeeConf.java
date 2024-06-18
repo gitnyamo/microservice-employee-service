@@ -1,4 +1,4 @@
-package fun.services.asap.employeeservice.config;
+package fun.services.asap.employee.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
