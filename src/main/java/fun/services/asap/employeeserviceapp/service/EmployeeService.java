@@ -19,6 +19,7 @@ public class EmployeeService {
     public EmployeeResponse getEmployeeById(int id) {
         Employee employee = employeeRepository.findById(id).get();
         EmployeeResponse employeeResponse = modelMapper.map(employee, EmployeeResponse.class);
+
         return employeeResponse;
     }
 

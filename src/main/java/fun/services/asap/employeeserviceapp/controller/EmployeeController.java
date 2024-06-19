@@ -1,5 +1,6 @@
 package fun.services.asap.employeeserviceapp.controller;
 
+import fun.services.asap.employeeserviceapp.response.AddressResponse;
 import fun.services.asap.employeeserviceapp.response.EmployeeResponse;
 import fun.services.asap.employeeserviceapp.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +21,15 @@ public class EmployeeController {
 
     @GetMapping("/employees/{id}")
     public ResponseEntity<EmployeeResponse> getEmployeeDetails(@PathVariable("id") int id) {
-        EmployeeResponse employeeResponseById = employeeService.getEmployeeById(id);
-        return ResponseEntity.status(HttpStatus.OK).body(employeeResponseById);
+
+        //addressResponse -> set data by making a rest api call
+        AddressResponse addressResponse = new AddressResponse();// right now address object response is still a null object if you make a call it should give you 0 for int value and null for string values of address field, however it should populate the data.
+
+        //employee -> EmployeeResponse
+        EmployeeResponse employeeResponse = employeeService.getEmployeeById(id);
+
+        employeeResponse.setAddressResponse(addressResponse);
+        return ResponseEntity.status(HttpStatus.OK).body(employeeResponse);
     }
 
 }
